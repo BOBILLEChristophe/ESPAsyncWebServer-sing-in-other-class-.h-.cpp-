@@ -7,10 +7,11 @@ Cette classe est nommée WebHandler pour l’exemple. Elle se décompose en un f
 
 Une instance de classe est créée dans le fichier principal ESP32_Async_Web_Server.ino et nommée webHandler. Le constructeur de la classe se limite à la création de deux pointeurs :
 
+<code>
 WebHandler() {
   _server = nullptr;
   _ws = nullptr;
 }
-
+</code>
 La méthode void WebHandler::init(int webPort) appelée dans le setup du fichier principal affecte à ces deux pointeur des instances des classes AsyncWebServer et AsyncWebSocket et initialise ces instances.
 
