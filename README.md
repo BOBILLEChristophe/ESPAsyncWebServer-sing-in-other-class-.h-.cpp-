@@ -19,7 +19,7 @@ La méthode "void WebHandler::init(int webPort)" appelée dans le "setup" du fic
 <p>&nbsp;</p>
 <code>
 void WebHandler::init(int webPort)
- { <p>&nbsp;</p>
+ { </br>
   _server = new AsyncWebServer(webPort);<p>&nbsp;</p>
   _ws = new AsyncWebSocket("/ws");
   <code>
