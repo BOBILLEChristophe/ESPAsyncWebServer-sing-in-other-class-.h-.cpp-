@@ -13,6 +13,6 @@ WebHandler() {
   _ws = nullptr;
 }
 </code>
-
+<p>&nbsp;</p>
 La méthode "void WebHandler::init(int webPort)" appelée dans le "setup" du fichier principal affecte à ces deux pointeur des instances des classes "AsyncWebServer" et "AsyncWebSocket" et initialise ces instances.
 
